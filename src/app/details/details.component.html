@@ -1,0 +1,11 @@
+<mat-card class="outer" *ngIf="userinput!=null">
+  <mat-card class="inner_main">
+    <span class="inner">{{ userinput.username }}</span>
+  </mat-card>
+  <mat-card class="inner">
+      <span class="inner">{{ userinput.password }}</span>
+      <span class="inner">{{ userinput.content }}</span>
+  </mat-card>
+</mat-card>
+
+<span class="outer" *ngIf="userinput==null"><h3>Welcome</h3></span>

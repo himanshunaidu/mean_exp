@@ -1,0 +1,17 @@
+mat-card.inner_main{
+  background-color: darkslateblue;
+  color: white;
+  margin: auto;
+}
+
+span.inner{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+span.outer{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
