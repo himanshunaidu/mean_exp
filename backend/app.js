@@ -3,7 +3,7 @@ var app = express();
 const mongoose = require('mongoose');
 
 //Connecting to mongodb atlas
-/*mongoose.connect("mongodb+srv://hnaidu0:hnaidu0@cluster0-d1bdx.mongodb.net/users?retryWrites=true",
+/*mongoose.connect("<MONGODB ATLAS URL>",
   {useNewUrlParser: true})
   .then(()=>{
     console.log('Connected to Mongo');
@@ -12,7 +12,7 @@ const mongoose = require('mongoose');
     console.log('Connection failed '+err.stack);
   });*/
 
-mongoose.connect("mongodb://localhost:27017/login", {useNewUrlParser: true})
+mongoose.connect("<MONGODB URL>", {useNewUrlParser: true})
   .then(()=>{
     console.log('Connected to Mongo');
   })
