@@ -49,7 +49,7 @@ app.use('/users', (req, res, next)=>{
 
   User.findOne({username: username, password: password}, function(err, user){
     if(err){
-      return res.status(200).json({
+      return res.status(404).json({
         status: 2,
         user: null
       });
